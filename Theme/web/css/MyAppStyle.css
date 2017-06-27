@@ -1,0 +1,35 @@
+﻿
+.tblDiv {
+    width:80%;
+    background-color:#85d4fc;
+    padding:2%;
+    border-radius:10px;
+}
+
+.tbl{
+    width:100%;
+}
+.tbl tr,.tbl tr td,.tbl tr th{
+    margin:1%;
+}
+
+.txt{
+    width:250px;
+    height:30px;
+}
+
+.btn{
+    width:100px;
+    height:35px;
+}
+
+.tblGrid{
+    width:80%;
+    align-self:center;
+    font-family:Verdana;
+    text-align:center;
+}
+.tblGrid tr th{
+    background-color:black;
+    color:white;
+}

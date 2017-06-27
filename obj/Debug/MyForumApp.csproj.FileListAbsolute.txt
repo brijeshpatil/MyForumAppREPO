@@ -1,0 +1,6 @@
+D:\Brijesh\NET_Pappu_Priya_Chetasi\Connectivity\MyForumApp\MyForumApp\bin\MyForumApp.dll.config
+D:\Brijesh\NET_Pappu_Priya_Chetasi\Connectivity\MyForumApp\MyForumApp\bin\MyForumApp.dll
+D:\Brijesh\NET_Pappu_Priya_Chetasi\Connectivity\MyForumApp\MyForumApp\bin\MyForumApp.pdb
+D:\Brijesh\NET_Pappu_Priya_Chetasi\Connectivity\MyForumApp\MyForumApp\obj\Debug\MyForumApp.csprojResolveAssemblyReference.cache
+D:\Brijesh\NET_Pappu_Priya_Chetasi\Connectivity\MyForumApp\MyForumApp\obj\Debug\MyForumApp.dll
+D:\Brijesh\NET_Pappu_Priya_Chetasi\Connectivity\MyForumApp\MyForumApp\obj\Debug\MyForumApp.pdb

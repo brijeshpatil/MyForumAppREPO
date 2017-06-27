@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECB8F1D5-D418-4C23-B807-123E99E1324F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyForumApp</RootNamespace>
+    <AssemblyName>MyForumApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\ManageTechnologies.aspx" />
+    <Content Include="Admin\ManageUse.aspx" />
+    <Content Include="Theme\btnimages\submit-button-png-25796.png" />
+    <Content Include="Theme\web\about.html" />
+    <Content Include="Theme\web\codes.html" />
+    <Content Include="Theme\web\contact.html" />
+    <Content Include="Theme\web\css\bootstrap.css" />
+    <Content Include="Theme\web\css\easy-responsive-tabs.css" />
+    <Content Include="Theme\web\css\font-awesome.css" />
+    <Content Include="Theme\web\css\jquery-ui.css" />
+    <Content Include="Theme\web\css\lsb.css" />
+    <Content Include="Theme\web\css\MyAppStyle.css" />
+    <Content Include="Theme\web\css\owl.carousel.css" />
+    <Content Include="Theme\web\css\popuo-box.css" />
+    <Content Include="Theme\web\css\style.css" />
+    <Content Include="Theme\web\fonts\fontawesome-webfont.svg" />
+    <Content Include="Theme\web\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Theme\web\icons.html" />
+    <Content Include="Theme\web\images\1.png" />
+    <Content Include="Theme\web\images\about.jpg" />
+    <Content Include="Theme\web\images\app.png" />
+    <Content Include="Theme\web\images\app1.png" />
+    <Content Include="Theme\web\images\arr.png" />
+    <Content Include="Theme\web\images\back.png" />
+    <Content Include="Theme\web\images\banner.jpg" />
+    <Content Include="Theme\web\images\c-arrows.png" />
+    <Content Include="Theme\web\images\clients.jpg" />
+    <Content Include="Theme\web\images\close.png" />
+    <Content Include="Theme\web\images\down.png" />
+    <Content Include="Theme\web\images\g1.jpg" />
+    <Content Include="Theme\web\images\g2.jpg" />
+    <Content Include="Theme\web\images\g3.jpg" />
+    <Content Include="Theme\web\images\g4.jpg" />
+    <Content Include="Theme\web\images\g5.jpg" />
+    <Content Include="Theme\web\images\mid.jpg" />
+    <Content Include="Theme\web\images\middle.jpg" />
+    <Content Include="Theme\web\images\next.png" />
+    <Content Include="Theme\web\images\next1.png" />
+    <Content Include="Theme\web\images\p1.jpg" />
+    <Content Include="Theme\web\images\p2.jpg" />
+    <Content Include="Theme\web\images\p3.jpg" />
+    <Content Include="Theme\web\images\p4.jpg" />
+    <Content Include="Theme\web\images\prev1.png" />
+    <Content Include="Theme\web\images\screens1.png" />
+    <Content Include="Theme\web\images\t1.jpg" />
+    <Content Include="Theme\web\images\t2.jpg" />
+    <Content Include="Theme\web\images\t3.jpg" />
+    <Content Include="Theme\web\images\team1.jpg" />
+    <Content Include="Theme\web\images\team2.jpg" />
+    <Content Include="Theme\web\images\team3.jpg" />
+    <Content Include="Theme\web\images\team4.jpg" />
+    <Content Include="Theme\web\images\up.png" />
+    <Content Include="Theme\web\index.html" />
+    <Content Include="Theme\web\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Theme\web\js\easing.js" />
+    <Content Include="Theme\web\js\easy-responsive-tabs.js" />
+    <Content Include="Theme\web\js\jquery-2.2.3.min.js" />
+    <Content Include="Theme\web\js\jquery-ui.js" />
+    <Content Include="Theme\web\js\jquery.flexisel.js" />
+    <Content Include="Theme\web\js\jquery.magnific-popup.js" />
+    <Content Include="Theme\web\js\lsb.min.js" />
+    <Content Include="Theme\web\js\move-top.js" />
+    <Content Include="Theme\web\js\owl.carousel.js" />
+    <Content Include="Theme\web\js\responsiveslides.min.js" />
+    <Content Include="Theme\web\js\SmoothScroll.min.js" />
+    <Content Include="Theme\web\login.html" />
+    <Content Include="Theme\web\matches.html" />
+    <Content Include="Theme\web\register.html" />
+    <Content Include="Theme\web\single1.html" />
+    <Content Include="Theme\web\single2.html" />
+    <Content Include="Theme\web\single3.html" />
+    <Content Include="Theme\web\single4.html" />
+    <Content Include="User\ChangePassword.aspx" />
+    <Content Include="User\GeneratePassword.aspx" />
+    <Content Include="User\Home.aspx" />
+    <Content Include="User\Logout.aspx" />
+    <Content Include="User\SignIn.aspx" />
+    <Content Include="User\SignUp.aspx" />
+    <Content Include="User\UserProfile.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageTechnologies.aspx.cs">
+      <DependentUpon>ManageTechnologies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageTechnologies.aspx.designer.cs">
+      <DependentUpon>ManageTechnologies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageUse.aspx.cs">
+      <DependentUpon>ManageUse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageUse.aspx.designer.cs">
+      <DependentUpon>ManageUse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyService.cs" />
+    <Compile Include="User\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\GeneratePassword.aspx.cs">
+      <DependentUpon>GeneratePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\GeneratePassword.aspx.designer.cs">
+      <DependentUpon>GeneratePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Theme\web\fonts\fontawesome-webfont.eot" />
+    <Content Include="Theme\web\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Theme\web\fonts\fontawesome-webfont.woff" />
+    <Content Include="Theme\web\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Theme\web\fonts\FontAwesome.otf" />
+    <Content Include="Theme\web\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Theme\web\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Theme\web\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Theme\web\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="User\User.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="QuestionImages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50562</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50562/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
